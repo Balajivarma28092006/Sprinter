@@ -3,3 +3,7 @@ the parser
 the Abstract Syntax Tress (AST)
 the internal object system
 the evaluator
+
+*ast.program
+    |
+*ast.LetStatement(name, value) -- *as.Identifier, *ast.Expression

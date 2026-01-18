@@ -4,6 +4,7 @@ import "go-inter/token"
 
 type Node interface {
 	TokenLiteral() string // every method should provide or implement this
+	// meaning it hast to provide a TokenLiteral() moethod that returns a litral value
 }
 
 type Statement interface {
